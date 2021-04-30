@@ -19,7 +19,8 @@ const particlesOptions = {
         }
       },
       move: {
-        speed: 0.6
+        speed: 0.7,
+        bounce: false
       },
       line_linked: {
         color: "#ffda81"
@@ -29,10 +30,11 @@ const particlesOptions = {
         random: true,
         anim: {
           enable: true,
-          speed: 2
+          speed: 0.5
         }
       }
-    } 
+    }
+   
 }
 
 function Particles() {
