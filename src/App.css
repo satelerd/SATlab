@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  color: #1c1c1c;
+  font-size: 200px;
+}
+
+.center {
+  display: flex;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(auto, auto);
+}
+
+body {
+  background-color: #17151f;
+}
