@@ -2,7 +2,7 @@ import RParticles from 'react-particles-js'
 
 const particlesOptions = {
     particles: {
-      number: {
+    number: {
         value: 110,
         density: {
           enable: true,
@@ -10,7 +10,7 @@ const particlesOptions = {
         }
       },
       color: {
-        value: '#ffefc6'
+        value: '#FFF8E7' // El color de las particulas se llama COSMIC LATTE, representa el color promedio del universo.
       },
       opacity: {
         value: 0.8,
@@ -19,10 +19,10 @@ const particlesOptions = {
         }
       },
       move: {
-        speed: 0.5
+        speed: 0.6
       },
       line_linked: {
-        color: "#ffefc6"
+        color: "#ffda81"
       },
       size: {
         value: 4,
@@ -33,7 +33,7 @@ const particlesOptions = {
         }
       }
     } 
-  }
+}
 
 function Particles() {
     return (
