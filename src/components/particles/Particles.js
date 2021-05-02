@@ -19,7 +19,7 @@ const particlesOptions = {
         }
       },
       move: {
-        speed: 0.7,
+        speed: 0.6,
         bounce: false
       },
       line_linked: {

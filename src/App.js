@@ -1,7 +1,8 @@
 import './App.css';
 import Logo from './components/logo/Logo.js';
 import Particles from './components/particles/Particles'
-
+import Cards from './components/cards/Cards.js'
+ 
 
 function App() {
   return (
@@ -10,18 +11,12 @@ function App() {
         <Logo />
       </header>
       <body>
-        <div className="tarjetas">
-          {/* <Block/>
-          <Block/>
-          <Block/>
-          <Block/>
-          <Block/>
-          <Block/>
-          <Block/> */}
-          {/* <DataBlock/> */}
-        </div>
+        
         <div className="bg">
-          <Particles/>
+          <Particles className="particles" id="DATO FREAK: El color de las particulas se llama COSMIC LATTE, representa el color promedio del universo."/>
+        </div>
+        <div className="tarjetas">
+          <Cards/>
         </div>
       </body>
     </div>

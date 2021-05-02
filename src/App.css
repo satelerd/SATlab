@@ -56,9 +56,7 @@ h1 {
 }
 
 .tarjetas {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(auto, auto);
+ position: fixed;
 }
 
 body {
