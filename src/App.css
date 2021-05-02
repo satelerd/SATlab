@@ -60,5 +60,6 @@ h1 {
 }
 
 body {
-  background-color: #242131;
+  background: rgb(30,28,56);
+  background: linear-gradient(90deg, rgb(22, 21, 37) 0%, rgb(17, 16, 82) 70%, rgb(17, 57, 167) 100%);
 }

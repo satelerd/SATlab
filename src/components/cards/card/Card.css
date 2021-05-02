@@ -7,7 +7,7 @@
     left: 0px;
     top: 0px;
 
-    background: rgba(33, 67, 117);
+    background: rgb(76, 76, 87);
     border-radius: 15px;
 }
 
@@ -18,7 +18,11 @@
     left: 0px;
     top: 0px;
 
-    background: url(falconHeavy.jpg);
+    background: url(Starship\ R1.jpg);
     border-radius: 15px;
+}
+
+.card-body {
+    color:rgb(167, 201, 255);
 }
 
