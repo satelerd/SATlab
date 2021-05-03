@@ -1,3 +1,9 @@
+html {
+  height: 100%;
+  background: linear-gradient(to bottom,  #161525 30%,#0e0d44 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-size: auto;
+}
+
 .App {
   text-align: center;
 }
@@ -60,6 +66,7 @@ h1 {
 }
 
 body {
-  background: rgb(30,28,56);
-  background: linear-gradient(90deg, rgb(22, 21, 37) 0%, rgb(17, 16, 82) 100%);
+  /* background: rgb(30,28,56);
+  background: linear-gradient(90deg, rgb(22, 21, 37) 0%, rgb(17, 16, 82) 100%); */
+
 }
