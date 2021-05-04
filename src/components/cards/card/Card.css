@@ -1,18 +1,16 @@
 .card {
-    margin: 50px;
-    padding: 0px 50px;
-    position: absolute;
-    width: 600px;
-    height: 300px;
+    z-index: 1;
+    width: 95%;
+    height: 100%;
     left: 0px;
     top: 0px;
 
     background: rgb(76, 76, 87);
     border-radius: 15px;
+    box-shadow: 12px 12px 10px 2px rgb(0 0 0 / 50%);
 }
 
 .card-img {
-    position: absolute;
     height: 100%;
     width: 30%;
     left: 0px;
@@ -25,4 +23,3 @@
 .card-body {
     color:rgb(167, 201, 255);
 }
-

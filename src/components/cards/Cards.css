@@ -1,0 +1,15 @@
+.card {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.grid {
+    width: 100%;
+    margin-right: 10% i !important;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 700px));
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px 5px;
+}
+

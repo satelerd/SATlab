@@ -11,7 +11,6 @@ function App() {
         <Logo />
       </header>
       <body>
-        
         <div className="bg">
           <Particles className="particles" id="DATO FREAK: El color de las particulas se llama COSMIC LATTE, representa el color promedio del universo."/>
         </div>
