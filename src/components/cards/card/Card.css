@@ -5,7 +5,7 @@
     left: 0px;
     top: 0px;
 
-    background: rgb(76, 76, 87);
+    background: rgba(76, 76, 87, 0.9);
     border-radius: 15px;
     box-shadow: 12px 12px 10px 2px rgb(0 0 0 / 50%);
 }
