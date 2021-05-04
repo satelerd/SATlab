@@ -5,23 +5,39 @@ import Cards from './components/cards/Cards.js'
 import Data from "./components/data/Data"
 
 const launches = [ 
-  { id: 1, rocket: "", launch_provider: "", misionName: "", time: "" }, { id: 2, rocket: "", launch_provider: "", misionName: "", time: "" }, { id: 3, rocket: "", misionName: "", time: "" }, 
-  { id: 4, rocket: "", launch_provider: "", misionName: "", time: "" }, { id: 5, rocket: "", launch_provider: "", misionName: "", time: "" }, { id: 6, rocket: "", misionName: "", time: "" }, 
-  { id: 7, rocket: "", launch_provider: "", misionName: "", time: "" }, { id: 8, rocket: "", launch_provider: "", misionName: "", time: "" }, { id: 9, rocket: "", misionName: "", time: "" },
-  { id: 10, rocket: "", launch_provider: "", misionName: "", time: "" } 
+  { id: 1, rocket: "", launch_provider: "", misionName: "", time: "", imagen: "" }, { id: 2, rocket: "", launch_provider: "", misionName: "", time: "", imagen: "" }, { id: 3, rocket: "", misionName: "", time: "", imagen: "" }, 
+  { id: 4, rocket: "", launch_provider: "", misionName: "", time: "", imagen: "" }, { id: 5, rocket: "", launch_provider: "", misionName: "", time: "", imagen: "" }, { id: 6, rocket: "", misionName: "", time: "", imagen: "" }, 
+  { id: 7, rocket: "", launch_provider: "", misionName: "", time: "", imagen: "" }, { id: 8, rocket: "", launch_provider: "", misionName: "", time: "", imagen: "" }, { id: 9, rocket: "", misionName: "", time: "", imagen: "" },
+  {id: 10, rocket: "", launch_provider: "", misionName: "", time: "", imagen: "" } 
 ];
 
 function App() {
   // Toma de los datos que necesitamos del API
   const launchesData = Data()
+  console.log(launchesData)
   var cont = 0
+  
   launchesData.forEach(launch => {
+    
     launches[cont].rocket = launch.rocket.configuration.name
     launches[cont].launch_provider = launch.launch_service_provider.name
-    launches[cont].misionName = launch.name
     launches[cont].time = launch.net
+    launches[cont].imagen = launch.image
+    
+    // Arreglar el texto  (work in progressssssssssss)
+    launches[cont].misionName = launch.name
+    // var strFound = false
+    // console.log(launches[cont].misionName)
+    // for(let letter; letter<(launches[cont].misionName).length; letter++){
+    //   if (letter === "|") {
+    //     console.log("tamoo")
+    //   }
+    // }
+
     cont++
   })
+
+  console.log(launches)
 
   return (
     <div className="App">
