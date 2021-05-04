@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/SATlab-V3/static/css/main.1c2c5ce9.chunk.css",
-    "main.js": "/SATlab-V3/static/js/main.bffd9ee1.chunk.js",
-    "main.js.map": "/SATlab-V3/static/js/main.bffd9ee1.chunk.js.map",
+    "main.css": "/SATlab-V3/static/css/main.d6a62e8e.chunk.css",
+    "main.js": "/SATlab-V3/static/js/main.a7694d6f.chunk.js",
+    "main.js.map": "/SATlab-V3/static/js/main.a7694d6f.chunk.js.map",
     "runtime-main.js": "/SATlab-V3/static/js/runtime-main.2ceb7751.js",
     "runtime-main.js.map": "/SATlab-V3/static/js/runtime-main.2ceb7751.js.map",
     "static/js/2.765eb3e2.chunk.js": "/SATlab-V3/static/js/2.765eb3e2.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.531ac296.chunk.js": "/SATlab-V3/static/js/3.531ac296.chunk.js",
     "static/js/3.531ac296.chunk.js.map": "/SATlab-V3/static/js/3.531ac296.chunk.js.map",
     "index.html": "/SATlab-V3/index.html",
-    "static/css/main.1c2c5ce9.chunk.css.map": "/SATlab-V3/static/css/main.1c2c5ce9.chunk.css.map",
+    "static/css/main.d6a62e8e.chunk.css.map": "/SATlab-V3/static/css/main.d6a62e8e.chunk.css.map",
     "static/js/2.765eb3e2.chunk.js.LICENSE.txt": "/SATlab-V3/static/js/2.765eb3e2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2ceb7751.js",
     "static/js/2.765eb3e2.chunk.js",
-    "static/css/main.1c2c5ce9.chunk.css",
-    "static/js/main.bffd9ee1.chunk.js"
+    "static/css/main.d6a62e8e.chunk.css",
+    "static/js/main.a7694d6f.chunk.js"
   ]
 }
