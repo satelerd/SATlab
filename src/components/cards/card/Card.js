@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 
-function Card({rocket, misionName, time}) {
+function Card({rocket, launch_provider, misionName, time}) {
     return (
         <div className="card">
             <div className="card-grid">
@@ -10,7 +10,12 @@ function Card({rocket, misionName, time}) {
                 </div>
                 <div className="card-body text-center">
                     <div className="card-title">
-                        {rocket}
+                        <div className="rocket">
+                            {rocket}
+                        </div>
+                        <div className="launch_provider">
+                            {launch_provider}
+                        </div>
                     </div>
                     <div className="card-text">
                         {misionName}

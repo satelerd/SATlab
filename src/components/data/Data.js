@@ -1,16 +1,19 @@
 import { useState, useEffect } from "react";
 
 function Data() {
-    const [launchesApi, setlaunches] = useState([]);
-    const launchesData = [];
-
-    useEffect(() => {fetch('https://lldev.thespacedevs.com/2.0.0/launch/upcoming/')
-      .then(res => res.json())
-      .then(data => {setlaunches(data)})
-    }, []);
-    console.log(launchesApi);
+    const [launchesApi, setlaunchesApi] = useState([]);
     
-    return(launchesData);
+    const request = async () => {
+        const response = await fetch('https://lldev.thespacedevs.com/2.0.0/launch/upcoming/');
+        const json = await response.json();
+        return json;
+    }
+
+    useEffect(() => { request()
+      .then(data => {setlaunchesApi(data.results)})
+    }, []);
+    
+    return(launchesApi);
 }
 
 export default Data;

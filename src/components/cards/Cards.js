@@ -53,10 +53,10 @@ const info = [
 function Cards({ data }) {
     return (
         <div className="grid">
-            <Card rocket={info[0].rocket} misionName={info[0].misionName} time={info[0].time} />
-            <Card rocket={info[1].rocket} misionName={info[1].misionName} time={info[1].time} />
-            <Card rocket={info[2].rocket} misionName={info[2].misionName} time={info[2].time} />
-            <Card rocket={info[3].rocket} misionName={info[3].misionName} time={info[3].time} />
+            <Card rocket={data[0].rocket} launch_provider={data[0].launch_provider} misionName={data[0].misionName} time={data[0].time} />
+            <Card rocket={data[1].rocket} launch_provider={data[1].launch_provider} misionName={data[1].misionName} time={data[1].time} />
+            <Card rocket={data[2].rocket} launch_provider={data[2].launch_provider} misionName={data[2].misionName} time={data[2].time} />
+            <Card rocket={data[3].rocket} launch_provider={data[3].launch_provider} misionName={data[3].misionName} time={data[3].time} />
             <Card title={info[4].title} body={info[4].body} />
             <Card title={info[5].title} body={info[5].body} />
             <Card title={info[6].title} body={info[6].body} />
