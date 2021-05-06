@@ -5,7 +5,7 @@
     left: 0px;
     top: 0px;
 
-    background: rgba(76, 76, 87, 0.897);
+    background: rgba(122, 122, 134, 0.897);
     border-radius: 12px;
     box-shadow: 12px 12px 10px 2px rgb(0 0 0 / 50%);
 }
@@ -34,5 +34,37 @@ img {
 }
 
 .card-body {
-    color:rgb(167, 201, 255);
+    color:rgb(0, 0, 0);
+}
+
+/* Card por parte */
+
+.rocket {
+    font-size: 200%;
+}
+
+.launch_provider {
+    font-size: 150%;
+    font-weight: bold;
+}
+.SpaceX {
+    color: #005288;
+}
+.Rocket {
+    color: #e74949;
+}
+.Virgin {
+    color: #aa2b2b;
+}
+.United {
+    color: #5b90d3;
+}
+.Arianespace {
+    color: #98d8f0;
+}
+.Indian {
+    color: #ec6e15;
+}
+.China {
+    color: #cd665b;
 }

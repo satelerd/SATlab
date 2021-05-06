@@ -14,7 +14,7 @@ const launches = [
 function App() {
   // Toma de los datos que necesitamos del API
   const launchesData = Data()
-  console.log(launchesData)
+
   var cont = 0
   
   launchesData.forEach(launch => {
@@ -29,6 +29,7 @@ function App() {
     // var strFound = false
     // console.log(launches[cont].misionName)
     // for(let letter; letter<(launches[cont].misionName).length; letter++){
+    //   // console.log(letter)
     //   if (letter === "|") {
     //     console.log("tamoo")
     //   }
@@ -37,7 +38,6 @@ function App() {
     cont++
   })
 
-  console.log(launches)
 
   return (
     <div className="App">
