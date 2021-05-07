@@ -38,7 +38,6 @@ function App() {
     var day = "";
     var hour = "";
     
-    launch.net = "2021-04-20T16:20:00Z"
     for(let letter=0; letter < (launch.net).length; letter++) {
 
       if (launch.net[letter] === "-" || launch.net[letter] === "T" || launch.net[letter] === "Z" || launch.net[letter] === ":" ) {
