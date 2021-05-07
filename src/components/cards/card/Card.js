@@ -1,7 +1,14 @@
 import React from 'react'
 import './Card.css'
 
-function Card({rocket, launch_provider, misionName, time, imagen}) {
+function Card({rocket, launch_provider, misionName, time, year, month, day, hour, imagen}) {
+    var hora = ""
+    
+    if (hour === "TBD") {
+        hora = "TBD"
+    } else {
+        hora = "A las " + hour + " UTC"
+    }
     return (
         <div className="card">
             <div className="card-grid">
@@ -18,8 +25,11 @@ function Card({rocket, launch_provider, misionName, time, imagen}) {
                         </div>
                     </div>
                     <div className="card-text">
-                        <div className="time">
-                            {time}
+                        <div className="dia">
+                            {day} de {month} de {year}
+                        </div>
+                        <div className="hora">
+                            {hora}
                         </div>
                     </div>
                 </div>
