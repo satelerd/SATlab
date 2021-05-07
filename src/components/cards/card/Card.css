@@ -43,6 +43,10 @@ img {
     font-size: 200%;
 }
 
+.time {
+    font-size: 120%;
+}
+
 .launch_provider {
     font-size: 150%;
     font-weight: bold;

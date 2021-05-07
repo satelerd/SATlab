@@ -11,16 +11,13 @@ function Card({rocket, launch_provider, misionName, time, imagen}) {
                 <div className="card-body text-center">
                     <div className="card-title">
                         <div className="rocket">
-                            {rocket}
+                            {misionName}
                         </div>
                         <div className={launch_provider + " launch_provider"}>
                             {launch_provider}
                         </div>
                     </div>
                     <div className="card-text">
-                        <div className="mision">
-                            {misionName}
-                        </div>
                         <div className="time">
                             {time}
                         </div>

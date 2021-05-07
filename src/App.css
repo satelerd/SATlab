@@ -1,6 +1,6 @@
 html {
   height: 1fr;
-  background: linear-gradient(to bottom,  #060324 20%,#122641 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom,  #060324 20%,#1b365a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background-size: auto;
 }
 
@@ -62,6 +62,7 @@ h1 {
 }
 
 .tarjetas {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 20px;
+  margin-left: 6%;
+  margin-right: 6%;
 }
