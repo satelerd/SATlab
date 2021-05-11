@@ -8,7 +8,17 @@ function Card({rocket, launch_provider, misionName, time, year, month, day, hour
         hora = "TBD"
     } else {
         hora = "A las " + hour + " UTC"
+    };
+
+    // Cambio de las fotos de SpaceX
+    if (imagen === "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20210508055736.png" || imagen === "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon25209_image_20190224025007.jpeg") {
+        imagen = "https://upload.wikimedia.org/wikipedia/commons/b/b4/Spaceflight_SSO-A_Mission_%2845257570925%29.jpg"
+    } 
+    // Electron
+    else if (imagen === "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/electron25202_image_20210511101149.jpg") {
+        imagen = "https://img.microsiervos.com/images2017/RocketLabStillTestingEncendido.jpg"
     }
+    
     return (
         <div className="card">
             <div className="card-grid">
