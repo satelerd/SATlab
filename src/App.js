@@ -32,6 +32,7 @@ function App() {
     launches[cont].imagen = launch.image;
 
     launches[cont].time = launch.net;
+    console.log(launch.net)
     var finder = 0;
     var year = "";
     var month = "";
@@ -65,7 +66,7 @@ function App() {
         
         else if (finder === 6) {
           // Si aun no tiene hora, TBD
-          if (hour === "00:00:00") {
+          if (hour === "00:00") {
             hour = "TBD"
           };
           continue
@@ -84,7 +85,7 @@ function App() {
       else if(finder === 2) {
         day = day + launch.net[letter];
       }
-      // Si estamos en el dia
+      // Si estamos en la hora
       else if(finder === 3 || finder === 4) {
         hour = hour + launch.net[letter];
       }

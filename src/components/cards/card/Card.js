@@ -11,12 +11,16 @@ function Card({rocket, launch_provider, misionName, time, year, month, day, hour
     };
 
     // Cambio de las fotos de SpaceX
-    if (imagen === "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20210508055736.png" || imagen === "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon25209_image_20190224025007.jpeg") {
+    if (imagen === "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20210602203321.jpeg" || imagen === "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg") {
         imagen = "https://upload.wikimedia.org/wikipedia/commons/b/b4/Spaceflight_SSO-A_Mission_%2845257570925%29.jpg"
     } 
     // Electron
     else if (imagen === "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/electron25202_image_20210511101149.jpg") {
         imagen = "https://img.microsiervos.com/images2017/RocketLabStillTestingEncendido.jpg"
+    }
+    // Long March 2F
+    else if (imagen === "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/long_march_2f_image_20210513092238.jpeg"){
+        imagen = "https://i.pinimg.com/originals/30/50/9d/30509d27826f692f78873d964a749d5c.jpg"
     }
     
     return (

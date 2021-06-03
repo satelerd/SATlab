@@ -6,7 +6,7 @@ function Data() {
     const [launchesApi, setlaunchesApi] = useState([]);
     
     const request = async () => {
-        const response = await fetch(api[1]);
+        const response = await fetch(api[0]);
         const json = await response.json();
         return json;
     }
