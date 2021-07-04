@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/SATlab-V3/static/css/main.c74fdd4d.chunk.css",
-    "main.js": "/SATlab-V3/static/js/main.4b9a25eb.chunk.js",
-    "main.js.map": "/SATlab-V3/static/js/main.4b9a25eb.chunk.js.map",
-    "runtime-main.js": "/SATlab-V3/static/js/runtime-main.5fbf1969.js",
-    "runtime-main.js.map": "/SATlab-V3/static/js/runtime-main.5fbf1969.js.map",
-    "static/js/2.c93e8d9c.chunk.js": "/SATlab-V3/static/js/2.c93e8d9c.chunk.js",
-    "static/js/2.c93e8d9c.chunk.js.map": "/SATlab-V3/static/js/2.c93e8d9c.chunk.js.map",
-    "static/js/3.870934f9.chunk.js": "/SATlab-V3/static/js/3.870934f9.chunk.js",
-    "static/js/3.870934f9.chunk.js.map": "/SATlab-V3/static/js/3.870934f9.chunk.js.map",
-    "index.html": "/SATlab-V3/index.html",
-    "static/css/main.c74fdd4d.chunk.css.map": "/SATlab-V3/static/css/main.c74fdd4d.chunk.css.map",
-    "static/js/2.c93e8d9c.chunk.js.LICENSE.txt": "/SATlab-V3/static/js/2.c93e8d9c.chunk.js.LICENSE.txt"
+    "main.css": "/SATlab/static/css/main.c74fdd4d.chunk.css",
+    "main.js": "/SATlab/static/js/main.4b9a25eb.chunk.js",
+    "main.js.map": "/SATlab/static/js/main.4b9a25eb.chunk.js.map",
+    "runtime-main.js": "/SATlab/static/js/runtime-main.b7ae5cab.js",
+    "runtime-main.js.map": "/SATlab/static/js/runtime-main.b7ae5cab.js.map",
+    "static/js/2.c93e8d9c.chunk.js": "/SATlab/static/js/2.c93e8d9c.chunk.js",
+    "static/js/2.c93e8d9c.chunk.js.map": "/SATlab/static/js/2.c93e8d9c.chunk.js.map",
+    "static/js/3.870934f9.chunk.js": "/SATlab/static/js/3.870934f9.chunk.js",
+    "static/js/3.870934f9.chunk.js.map": "/SATlab/static/js/3.870934f9.chunk.js.map",
+    "index.html": "/SATlab/index.html",
+    "static/css/main.c74fdd4d.chunk.css.map": "/SATlab/static/css/main.c74fdd4d.chunk.css.map",
+    "static/js/2.c93e8d9c.chunk.js.LICENSE.txt": "/SATlab/static/js/2.c93e8d9c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5fbf1969.js",
+    "static/js/runtime-main.b7ae5cab.js",
     "static/js/2.c93e8d9c.chunk.js",
     "static/css/main.c74fdd4d.chunk.css",
     "static/js/main.4b9a25eb.chunk.js"
